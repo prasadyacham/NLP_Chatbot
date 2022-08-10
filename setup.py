@@ -95,3 +95,5 @@ setup(
     ],
     test_suite='tests'
 )
+os.system("pip install git+git://github.com/gunthercox/chatterbot-corpus@master#egg=chatterbot_corpus")
+os.system("python -m spacy download en_core_web_sm")
