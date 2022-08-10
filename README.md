@@ -32,8 +32,15 @@ An untrained instance of ChatterBot starts off with no knowledge of how to commu
 
 This package can be installed from [PyPi](https://pypi.python.org/pypi/ChatterBot) by running:
 
+The installation procedure is shown below:
 ```
-pip install chatterbot
+Make an virtual environment & source it
+git clone git@github.com:feignbird/ChatterBot-spacy_fixed.git
+pip install ./ChatterBot-spacy_fixed
+pip install chatterbot-corpus
+pip uninstall pyYAML
+pip install pyYAML==5.3.1
+python -m spacy download en_core_web_sm
 ```
 
 ## Basic Usage
